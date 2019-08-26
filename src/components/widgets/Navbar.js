@@ -9,13 +9,13 @@ class Navbar extends React.Component{
                 </div>
                 <div className='topbar'>
                     <a href='#'>
-                        about
+                        {"< about >"}
                     </a>
                     <a href='#'>
-                        work
+                        {"< work >"}
                     </a>
                     <a href='#'>
-                        résumé
+                        {"< résumé >"}
                     </a>
                 </div>
                 <br />

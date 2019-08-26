@@ -3,11 +3,11 @@ import './widgets.css';
 
 class workTiles extends React.Component{
     state = {
-        facebookCardImg: require("../images/FacebookCard.svg"),
-        designCardImg: require("../images/DesignCard.svg"),
-        itsCardImg:require('../images/ITSCard.svg'),
-        infopostImg: require('../images/InfoPostCard.svg'),
-        miscImg: require('../images/MiscellaneousCard.svg')
+        facebookCardImg: require("../images/tiles/FacebookCard.svg"),
+        designCardImg: require("../images/tiles/DesignCard.svg"),
+        itsCardImg:require('../images/tiles/ITSCard.svg'),
+        infopostImg: require('../images/tiles/InfoPostCard.svg'),
+        miscImg: require('../images/tiles/MiscellaneousCard.svg')
       }
 
     render(){
@@ -18,13 +18,13 @@ class workTiles extends React.Component{
                         src={this.state.facebookCardImg}
                         onMouseEnter={() => {
                             this.setState({
-                            facebookCardImg: require("../images/FacebookHover.svg")
+                            facebookCardImg: require("../images/tiles/FacebookHover.svg")
                             })
                         }}
 
                         onMouseOut={() => {
                             this.setState({
-                            facebookCardImg: require("../images/FacebookCard.svg")
+                            facebookCardImg: require("../images/tiles/FacebookCard.svg")
                             })
                         }}
                     />
@@ -33,13 +33,13 @@ class workTiles extends React.Component{
                         src={this.state.designCardImg}
                         onMouseEnter={() => {
                             this.setState({
-                            designCardImg: require("../images/DesignHover.svg")
+                            designCardImg: require("../images/tiles/DesignHover.svg")
                             })
                         }}
 
                         onMouseOut={() => {
                             this.setState({
-                            designCardImg: require("../images/DesignCard.svg")
+                            designCardImg: require("../images/tiles/DesignCard.svg")
                             })
                         }}
                     />
@@ -50,13 +50,13 @@ class workTiles extends React.Component{
                         src={this.state.itsCardImg}
                         onMouseEnter={() => {
                             this.setState({
-                            itsCardImg: require("../images/ITSCardHover.svg")
+                            itsCardImg: require("../images/tiles/ITSCardHover.svg")
                             })
                         }}
 
                         onMouseOut={() => {
                             this.setState({
-                            itsCardImg: require("../images/ITSCard.svg")
+                            itsCardImg: require("../images/tiles/ITSCard.svg")
                             })
                         }}
                     />
@@ -65,30 +65,30 @@ class workTiles extends React.Component{
                         src={this.state.infopostImg}
                         onMouseEnter={() => {
                             this.setState({
-                                infopostImg: require('../images/InfoPostHover.svg')
+                                infopostImg: require('../images/tiles/InfoPostHover.svg')
                             })
                         }}
 
                         onMouseOut={() => {
                             this.setState({
-                                infopostImg: require('../images/InfoPostCard.svg')
+                                infopostImg: require('../images/tiles/InfoPostCard.svg')
                             })
                         }}
                     />
                 </div>
                 <div>
-                    <img src={require('../images/RandomCard.svg')} alt='Random Card'/>
+                    <img src={require('../images/tiles/RandomCard.svg')} alt='Random Card'/>
                     <img
                         src={this.state.miscImg}
                         onMouseEnter={() => {
                             this.setState({
-                                miscImg: require('../images/MiscellaneousHover.png')
+                                miscImg: require('../images/tiles/MiscellaneousHover.png')
                             })
                         }}
 
                         onMouseOut={() => {
                             this.setState({
-                                miscImg: require('../images/MiscellaneousCard.png')
+                                miscImg: require('../images/tiles/MiscellaneousCard.png')
                             })
                         }}
                     />
