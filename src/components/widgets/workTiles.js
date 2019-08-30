@@ -14,7 +14,7 @@ class workTiles extends React.Component{
         return(
             <div className='workTiles'>
                 <div>
-            
+                    <a href="/fbu">
                     <img
                         src={this.state.facebookCardImg}
                         onMouseEnter={() => {
@@ -28,8 +28,9 @@ class workTiles extends React.Component{
                             facebookCardImg: require("../images/tiles/FacebookCard.svg")
                             })
                         }}
-                    />
+                    /></a>
 
+                    <a href="/comingsoon">
                     <img
                         src={this.state.designCardImg}
                         onMouseEnter={() => {
@@ -43,10 +44,11 @@ class workTiles extends React.Component{
                             designCardImg: require("../images/tiles/DesignCard.svg")
                             })
                         }}
-                    />
+                    /></a>
 
                 </div>
                 <div>
+                    <a href="/comingsoon">
                     <img
                         src={this.state.itsCardImg}
                         onMouseEnter={() => {
@@ -60,8 +62,9 @@ class workTiles extends React.Component{
                             itsCardImg: require("../images/tiles/ITSCard.svg")
                             })
                         }}
-                    />
+                    /></a>
 
+                    <a href="/infopost">
                     <img
                         src={this.state.infopostImg}
                         onMouseEnter={() => {
@@ -75,10 +78,15 @@ class workTiles extends React.Component{
                                 infopostImg: require('../images/tiles/InfoPostCard.svg')
                             })
                         }}
-                    />
+                    /></a>
                 </div>
                 <div>
+
+                    <a href="/comingsoon">
                     <img src={require('../images/tiles/RandomCard.svg')} alt='Random Card'/>
+                    </a>
+
+                    <a href="/misc">
                     <img
                         src={this.state.miscImg}
                         onMouseEnter={() => {
@@ -93,6 +101,7 @@ class workTiles extends React.Component{
                             })
                         }}
                     />
+                    </a>
                 </div>
             </div>
         );

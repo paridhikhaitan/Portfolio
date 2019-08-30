@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/widgets/Navbar';
-import GlitchEffect from 'react-glitch-effect';
+import '../App.css'
 
 const mainImage={
     width: '75%',
@@ -35,7 +35,7 @@ const secondImage={
 class FBUCodepath extends React.Component{
     render(){
         return(
-            <div>
+            <div className="MainPage">
                 <Navbar />
                 <div className='pageStyles'>
                     <div>

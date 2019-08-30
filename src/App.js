@@ -1,22 +1,14 @@
 import React from 'react';
-import Work from './pages/Work';
 import './App.css';
-import Navbar from './components/widgets/Navbar';
-import LandingPage from './pages/landingPage';
+import { BrowserRouter } from 'react-router-dom'
+import Main from './components/Main';
+import ContactFooter from './components/widgets/ContactFooter';
 
 function App() {
   return (
-    <div className='MainPage'>
-      <Navbar />
-      <div className="content">
-        <img src={require('./components/images/Line.svg')}/>     
-        <div>
-          <LandingPage />
-          <Work />
-        </div>
-      </div>
-
-    </div>
+    <BrowserRouter>
+      <Main/>
+    </BrowserRouter>
   );
 }
 

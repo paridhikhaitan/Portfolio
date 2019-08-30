@@ -8,10 +8,10 @@ class Navbar extends React.Component{
                 <div>
                 </div>
                 <div className='topbar'>
-                    <a href='#'>
+                    <a href='/'>
                         {"< work >"}
                     </a>
-                    <a href='#'>
+                    <a href='/about'>
                         {"< about >"}
                     </a>
                     <a href='#'>
