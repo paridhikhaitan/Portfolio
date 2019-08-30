@@ -6,7 +6,7 @@ import LandingPage from './pages/landingPage';
 
 function App() {
   return (
-    <div style={{marginLeft: '5vw', marginRight: '5vw'}}>
+    <div className='MainPage'>
       <Navbar />
       <div className="content">
         <img src={require('./components/images/Line.svg')}/>     

@@ -9,3 +9,9 @@
 .content img{
   margin-top: 8rem;
 }
+
+.MainPage{
+  padding-left: 5%;
+  padding-right: 5%;
+  cursor: url('./components/images/cursorPointer.svg'), auto;	
+}

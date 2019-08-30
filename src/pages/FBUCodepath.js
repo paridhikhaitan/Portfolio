@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/widgets/Navbar';
+import GlitchEffect from 'react-glitch-effect';
 
 const mainImage={
     width: '75%',
@@ -57,6 +58,7 @@ class FBUCodepath extends React.Component{
                             <b>Date: </b> May 2019-July 2019
                         </div>
                     </div>
+
                     <img src={require('../components/images/FBUCodepath/FBUCodepath1.jpg')} alt='Class Photo' style={mainImage}/>
 
                     <div>

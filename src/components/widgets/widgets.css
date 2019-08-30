@@ -19,26 +19,26 @@
 }
 
 .topbar{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     color: black;
     float: right;
 }
 
 .topbar a{
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     margin-right: 4vw;
 }
 
 .topbar a:hover{
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .nav{
     padding-bottom: '0px';
-    margin-top: 2vw;
+    padding-top: 2vw;
     margin-bottom: 2vw;
 }
 
