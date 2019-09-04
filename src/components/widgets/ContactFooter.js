@@ -1,10 +1,6 @@
 import React from 'react'
 import './widgets.css'
 
-const footer={
-
-}
-
 class ContactFooter extends React.Component{
     render(){
         return(

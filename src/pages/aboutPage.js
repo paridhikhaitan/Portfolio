@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/widgets/Navbar';
 import GlitchEffect from 'react-glitch-effect';
 import '../App.css'
+import ContactFooter from '../components/widgets/ContactFooter';
 
 const mainImage={
     width: '70%',
@@ -25,11 +26,11 @@ class aboutPage extends React.Component{
                             University of California, San Diego. 
                             <br />
                             <br />
-                            This summer, I served as a Tutor for Android Development at <a href='#'>Facebook University</a>. I currently intern 
-                            at a San Deigo based startup, <a href='#'>InfoPost</a>, as a Web Developer and also serve on the board of <a href='#'>Design Co. at UCSD</a>. 
+                            This summer, I served as a Tutor for Android Development at <a href='/fbu'>Facebook University</a>. I currently intern 
+                            at a San Deigo based startup, <a href='/infopost'>InfoPost</a>, as a Web Developer and also serve on the board of <a href='/comingsoon'>Design Co. at UCSD</a>. 
                             <br />
                             <br />
-                            I'm interested in the intersection of code and design. I work with <a href='#'>Girls' Who Code</a> and <a href='#'>Women in Computing @UCSD </a>
+                            I'm interested in the intersection of code and design. I work with <a href='https://girlswhocode.com'>Girls' Who Code</a> and <a href='http://wic.ucsd.edu'>Women in Computing @UCSD </a>
                              to promote female representation in Computer Science through outreach events, mentorship and workshops. 
                             <br/>
                             <br />
@@ -38,6 +39,7 @@ class aboutPage extends React.Component{
                     </div>
                     
                 </div>
+                <ContactFooter />
             </div>
         );
     }

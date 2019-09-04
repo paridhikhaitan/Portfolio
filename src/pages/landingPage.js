@@ -3,7 +3,7 @@ import Typing from 'react-typing-animation';
 
 const mainDiv={
     height: '90vh',
-    marginLeft: '3vw'
+    marginLeft: '6vw'
 }
 
 const mainTitle={
@@ -14,10 +14,10 @@ const mainTitle={
 }
 
 const subHeading={
-    fontSize: '30px',
+    fontSize: '26px',
     fontFamily: 'Roboto Mono',
-    fontWeight: 200,
-    color: '#4d4d4d',
+    fontWeight: 300,
+    color: '#383838',
     paddingTop: '3rem',
 }
 
@@ -31,9 +31,10 @@ class LandingPage extends React.Component{
                 <div style={subHeading}> 
                     <Typing speed={40}>
                         <span>
-                        I develop websites and mobile apps. <br />
+                        I develop websites + mobile apps;
+                        <br />
                         <Typing.Delay ms={500} />
-                        I also design :)
+                        I also design!
                         </span>
                     </Typing>
                 </div>

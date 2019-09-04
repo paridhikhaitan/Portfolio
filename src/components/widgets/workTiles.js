@@ -7,6 +7,7 @@ class workTiles extends React.Component{
         designCardImg: require("../images/tiles/DesignCard.svg"),
         itsCardImg:require('../images/tiles/ITSCard.svg'),
         infopostImg: require('../images/tiles/InfoPostCard.svg'),
+        sparrowImg: require('../images/tiles/Sparrow.svg'),
         miscImg: require('../images/tiles/MiscellaneousCard.svg')
       }
 
@@ -83,7 +84,20 @@ class workTiles extends React.Component{
                 <div>
 
                     <a href="/comingsoon">
-                    <img src={require('../images/tiles/RandomCard.svg')} alt='Random Card'/>
+                    <img
+                        src={this.state.sparrowImg}
+                        onMouseEnter={() => {
+                            this.setState({
+                                sparrowImg: require('../images/tiles/SparrowHover.png')
+                            })
+                        }}
+
+                        onMouseOut={() => {
+                            this.setState({
+                                sparrowImg: require('../images/tiles/Sparrow.svg')
+                            })
+                        }}
+                    />
                     </a>
 
                     <a href="/misc">

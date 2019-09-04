@@ -10,6 +10,7 @@ function App() {
     <div className='MainPage'>
       <Navbar />
       <div className="content">
+        <img src={require('../components/images/Line.svg')} alt='sideLine'  style={{width: '2rem', minWidth: '16px'}}/>
         <div>
           <LandingPage />
           <Work />

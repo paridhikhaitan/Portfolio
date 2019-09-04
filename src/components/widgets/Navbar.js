@@ -5,7 +5,7 @@ class Navbar extends React.Component{
     render(){
         return(
             <div className='nav'>
-                <div>
+                <div className='namePari'>
                 </div>
                 <div className='topbar'>
                     <a href='/'>
@@ -14,7 +14,7 @@ class Navbar extends React.Component{
                     <a href='/about'>
                         {"< about >"}
                     </a>
-                    <a href='#'>
+                    <a href='https://drive.google.com/file/d/1hV6q58SUGXHcdzsalhhAKKFhF9VrnjyV/view?usp=sharing' target='blank'>
                         {"< resumé >"}
                     </a>
                 </div>
