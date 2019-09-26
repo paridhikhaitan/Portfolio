@@ -14,7 +14,7 @@ class aboutPage extends React.Component{
 
     render(){
         return(
-            <div className='MainPage'>
+            <div>
                 <Navbar />
                 <div style={{marginLeft: '5%', marginRight: '5%', display: 'flex', marginBottom: '5%'}}>
                     <GlitchEffect duration='6s' >

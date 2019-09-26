@@ -10,7 +10,7 @@ const designTiles={
 class Miscellaneous extends React.Component{
     render(){
         return(
-            <div className='MainPage'>
+            <div>
                 <Navbar />
                 <div>
                     <div className='pageStyles'>

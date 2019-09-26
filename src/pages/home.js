@@ -7,7 +7,7 @@ import ContactFooter from '../components/widgets/ContactFooter';
 
 function App() {
   return (
-    <div className='MainPage'>
+    <div>
       <Navbar />
       <div className="content">
         <img src={require('../components/images/Line.svg')} alt='sideLine'  style={{width: '2rem', minWidth: '16px'}}/>

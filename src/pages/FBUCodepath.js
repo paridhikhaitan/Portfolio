@@ -36,7 +36,7 @@ const secondImage={
 class FBUCodepath extends React.Component{
     render(){
         return(
-            <div className="MainPage">
+            <div>
                 <Navbar />
                 <div className='pageStyles'>
                     <div className='heading'>

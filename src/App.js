@@ -6,9 +6,11 @@ import ContactFooter from './components/widgets/ContactFooter';
 
 function App() {
   return (
+    <div className="MainPage">
     <BrowserRouter>
       <Main/>
     </BrowserRouter>
+    </div>
   );
 }
 

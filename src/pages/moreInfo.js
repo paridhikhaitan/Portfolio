@@ -5,7 +5,7 @@ import ContactFooter from '../components/widgets/ContactFooter';
 class moreInfo extends React.Component{
     render(){
         return(
-            <div className='MainPage'>
+            <div>
                 <Navbar />
                 <div className='pageStyles' style={{fontSize: '22px'}}>
                     👀 More information coming soon!
