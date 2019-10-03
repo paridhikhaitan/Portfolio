@@ -9,7 +9,7 @@
 }
 
 .workTiles div a{
-    cursor: url('../images/cursorHover.svg'), auto;
+   /* cursor: url('../images/cursorHover.svg'), auto; */
 }
 
 .workTiles div a img{
@@ -51,7 +51,7 @@
 
 .topbar a:hover{
     font-weight: 400;
-    cursor: url('../images/cursorHover.svg'), auto;
+    /* cursor: url('../images/cursorHover.svg'), auto; */
 }
 
 .nav{

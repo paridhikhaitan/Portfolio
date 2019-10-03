@@ -13,5 +13,6 @@
 .MainPage{
   padding-left: 5%;
   padding-right: 5%;
-  cursor: url('./components/images/cursorPointer.svg'), auto;	
+  /*
+  cursor: url('./components/images/cursorPointer.svg'), auto;	*/
 }
