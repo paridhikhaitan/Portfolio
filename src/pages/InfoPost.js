@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../components/widgets/Navbar'
-import ContactFooter from '../components/widgets/ContactFooter';
+import Navbar from '../components/navbar';
+import { Row, Col } from 'react-grid-system';
+import { spacer2, spacer3 } from '../components/constants';
 
 const mainImage={
     width: '75%',
@@ -12,15 +13,6 @@ const mainImage={
     marginBottom: '3vw',
 }
 
-const roleRow={
-    display: 'flex',
-    fontSize: '14px',
-    color: '#4d4d4d',
-    paddingLeft: '10%',
-    paddingRight: '10%', 
-    alignItems: 'center',
-    justifyContent: 'center',
-}
 
 const oldInfo={
     width:'45%',
@@ -34,11 +26,10 @@ class InfoPost extends React.Component{
     render(){
         return(
             <div>
-                <Navbar />
-                <div className='pageStyles'>
-                    <div className='heading'>
+                <div style={{marginTop: spacer3}}>
+                    <h1>
                     INFOPOST
-                    </div>
+                    </h1>
                     <p>
                         <b>Overview: </b>  A San Diego based startup, InfoPost is your personal AI which checks the 
                         news you read for credibility. We give trust scores to your news so that you don't consume 
@@ -48,19 +39,20 @@ class InfoPost extends React.Component{
                         
                     </p>
                     <br />
-                    <div style={roleRow}>
-                        <div style={{marginLeft: '2vw'}}>
-                            <b>Role: </b>Web Developer
-                        </div>
-                        <div style={{marginLeft: '2vw'}}>
-                            <b>Tools: </b> React, HTML/CSS, JavaScript
-                        </div>
-                        <div style={{marginLeft: '2vw'}}>
-                            <b>Date: </b> Jan 2019- Present
-                        </div>
-                    </div>
 
-                    <img src={require('../components/images/infopost/SplashPage.gif')} alt='Class Photo' style={mainImage}/>
+                    <Row style={{marginTop: spacer2}}>
+                        <Col md={4}>
+                            <h5>Role: Web Developer</h5>
+                        </Col>
+                        <Col md={4}>
+                            <h5>Tools: React, HTML/CSS, JavaScript</h5>
+                        </Col>
+                        <Col md={4}>
+                            <h5>Date: Jan 2019- Present</h5>
+                        </Col>
+                    </Row>
+                
+                    <img src={require('../images/infopost/SplashPage.gif')} alt='Class Photo' style={mainImage}/>
 
                     <br />
                     <br />
@@ -74,8 +66,8 @@ class InfoPost extends React.Component{
                         <br />
                     </p>
                     <div style={{display: 'flex'}}>
-                        <img src={require('../components/images/infopost/oldInfo1.png')} alt='Old InfoPost' style={oldInfo}/>
-                        <img src={require('../components/images/infopost/oldInfo2.png')} alt='Old InfoPost' style={oldInfo}/>
+                        <img src={require('../images/infopost/oldInfo1.png')} alt='Old InfoPost' style={oldInfo}/>
+                        <img src={require('../images/infopost/oldInfo2.png')} alt='Old InfoPost' style={oldInfo}/>
                     </div>
                     <p>
                         While the old site was running for 4 months, we redesigned our application. In light of this change, 
@@ -92,7 +84,6 @@ class InfoPost extends React.Component{
         
 
                 </div>
-                <ContactFooter />
             </div>
         );
     }
